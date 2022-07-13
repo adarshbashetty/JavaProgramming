@@ -1,0 +1,72 @@
+-Java is Comiple program program.
+-Java is highly secured language.
+-Java is platform independent.(WoRa)
+-Java is used for web develpement,App development.
+-Java is Object oriented programmed language.
+
+1.Keywords:
+	-pre defined words in any language are called keywords.
+	-Also called as  compiler known words.
+	-All the keyowords has its own function and meanings.
+	-In java all the keyowrds are in small case. ex:(class,public,static,void etc)
+
+2.Identifiers:
+	- User defined words are called as identifiers.
+	-These words are used for variables,functions,classes interfaces etc declaration.
+	-In order to define an identifiers we need to use certain condtions
+	Rules:
+	-alphanumeric character.
+	-special characteers not allowed except _ and $.
+	-it should not  starts with number.
+	-there should be no space.
+	-keywords cannot usd as identifiers.
+
+	//Can we use speciaa character as a identifier?
+
+class Sum{
+	public static void main(String[] args)
+{
+	int a=10;
+	int $=10;
+	int _=10;
+	}
+}
+
+//datatypes
+	-It's used define an type of data in which it belongs to
+	1.primitive datatypes(8)
+		==compiler Known
+		Integer-Datatypes(4)-byte,short,int,long
+		Floating dataTypes(2)-float,double
+		character(1)-char
+		boolean(1)-boolean(it will always two values : true and false)
+**imp:String is not a primitve datatypes
+2.Non-Primitve datatypes
+	==user defined or jdk includes
+	-Mainly all the classes and interfaces are Non-Primitive datatype
+		Ex:String
+
+
+//HW1
+class Firstprogramme{
+	public static void main (String[]args){
+		int $=10;//we can use
+		int _=10;//we cannot use (compile error) bcz its a keyword
+		int _a=10;//we can use
+		
+	} 
+}
+
+//variables
+	-Its a container to store the data
+	-It should always follow camelCase(firstName)
+	-It's a name given to the memory location
+	//Declaration
+		Syntax: data_type variableName;
+		Example : String firstNmae;
+	//intialization(condition: variable should be declared first)
+		Syntax: variableName=value;
+		Example : firstName="Sangu";
+	//defination 
+	Syntax: data_type variableName=values;
+		Example : String firstName="Sangu";
