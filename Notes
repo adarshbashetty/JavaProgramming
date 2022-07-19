@@ -19,9 +19,9 @@
 	-special characteers not allowed except _ and $.
 	-it should not  starts with number.
 	-there should be no space.
-	-keywords cannot usd as identifiers.
+	-keywords cannot used as identifiers.
 
-	//Can we use speciaa character as a identifier?
+	//Can we use special character as a identifier?
 
 class Sum{
 	public static void main(String[] args)
@@ -70,3 +70,44 @@ class Firstprogramme{
 	//defination 
 	Syntax: data_type variableName=values;
 		Example : String firstName="Sangu";
+
+//String concatination
+String + any datatype =string
+any datype + string = String
+String + String=String
+
+//flow control
+			//branching
+				//if,switch
+			//loop
+				//for,while
+
+//if
+1)if
+//syntax
+if(condition){
+	//do something
+}
+
+2)if else
+//syntax
+if(condition){
+	//do something
+}
+else{
+	//do something
+}
+
+3)if else if
+//syntax
+if(condition){
+	//do something
+}
+else if(condition){
+	//do something
+}
+else if(condition){
+	//do something
+}
+
+
